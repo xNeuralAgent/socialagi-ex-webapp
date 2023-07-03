@@ -46,7 +46,9 @@ import { useSoul } from "socialagi"
 
 ...
 
-const { tellSoul, messages, soulThoughts } = useSoul();
+const { tellSoul, messages, soulThoughts } = useSoul({
+  blueprint: Blueprints.SAMANTHA,
+});
 ```
 runs the Soul in browser. The `tellSoul(text)` method sends a new message to the soul, which is added to the messages React state as `{sender: "user", text, timestamp}`. When the Soul responds, then new messages are added with `sender='soul'`.
 
