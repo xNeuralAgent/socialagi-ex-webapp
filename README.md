@@ -6,15 +6,15 @@ This example website contains the code for Samantha from [Meet Samantha](http://
 
 ### Getting Started
 
-Samantha is a Next.js project. It requires one environment variable to be set
+Samantha is a Next.js project. After cloning the repo, this project requires one environment variable to be set
 ```
 export OPENAI_API_KEY=your_api_key
 ```
-After installing npm locally,
+Then, after installing npm locally,
 ```
 npm install
 ```
-Then, run the development server:
+Run the development server:
 ```bash
 npm run dev
 ```
